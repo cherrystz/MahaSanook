@@ -93,7 +93,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, GIDSignInDelegate {
             //i.e. dismissing this view or push the home view controller etc
                 let storyboard = UIStoryboard.init(name: "Main", bundle: nil)
                 let loginSuccess = storyboard.instantiateViewController(identifier: "loginSuccess") as! MainTabBarViewController
-                UIApplication.shared.windows.first?.rootViewController = loginSuccess
+                UIApplication.shared.windows.first?.switchRootViewController(loginSuccess, animated: true, duration: 0.3, options: .transitionCrossDissolve, completion: nil)
             }
         }
         // ...

@@ -23,9 +23,14 @@ class SignInViewController: UIViewController, LoginButtonDelegate {
     
     let defaults = UserDefaults.standard
     let loginButton = FBLoginButton()
+    var emailText = String()
+    var passwordText = String()
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        emailField.text = emailText
+        passwordField.text = passwordText
         
         loginButton.delegate = self
         

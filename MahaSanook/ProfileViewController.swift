@@ -35,9 +35,12 @@ class ProfileViewController: UIViewController, UITableViewDelegate, UITableViewD
             }
         }
         
-        
         profileImageView.cornerRadius()
-        profileNameLabel.text = "Hi, \((user?.displayName)?.description)!"
+        
+        if user?.displayName != nil {
+            profileNameLabel.text = "Hi, \((user?.displayName)!)!"
+        }
+        
         
         tableView.dataSource = self
         tableView.delegate = self
@@ -53,8 +56,7 @@ class ProfileViewController: UIViewController, UITableViewDelegate, UITableViewD
             let firebaseAuth = Auth.auth()
             do {
               try firebaseAuth.signOut()
-                UIApplication.shared.windows.first?.rootViewController = self.storyboard?.instantiateViewController(withIdentifier: "signIn") as! SignInViewController
-                
+                self.logOut()
                 let loginManager = LoginManager()
                 loginManager.logOut()
                 
@@ -68,6 +70,7 @@ class ProfileViewController: UIViewController, UITableViewDelegate, UITableViewD
     }
     
     // MARK: - Table View
+    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return arrayCell.count
     }
@@ -78,6 +81,16 @@ class ProfileViewController: UIViewController, UITableViewDelegate, UITableViewD
         cell.textLabel?.text = "  " + arrayCell[indexPath.row]
         
         return cell
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        switch indexPath.row {
+        case 0:
+            let update = self.storyboard?.instantiateViewController(identifier: "updateProfile") as! UpdateProfileViewController
+            self.navigationController?.pushViewController(update, animated: true)
+        default:
+            break
+        }
     }
 
     /*

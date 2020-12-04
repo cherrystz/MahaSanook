@@ -10,6 +10,7 @@ target 'MahaSanook' do
   pod 'FBSDKLoginKit'
   pod 'Firebase/Analytics'
   pod 'Firebase/Auth'
+  pod 'Firebase/InAppMessaging'
   pod 'FirebaseUI'
   pod 'FirebaseUI/Auth'
   pod 'FirebaseUI/Google'

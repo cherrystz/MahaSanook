@@ -249,9 +249,14 @@ PODS:
   - Firebase/Firestore (7.1.0):
     - Firebase/CoreOnly
     - FirebaseFirestore (~> 7.1.0)
+  - Firebase/InAppMessaging (7.1.0):
+    - Firebase/CoreOnly
+    - FirebaseInAppMessaging (~> 7.1.0-beta)
   - Firebase/Storage (7.1.0):
     - Firebase/CoreOnly
     - FirebaseStorage (~> 7.1.0)
+  - FirebaseABTesting (7.2.0):
+    - FirebaseCore (~> 7.0)
   - FirebaseAnalytics (7.1.0):
     - FirebaseCore (~> 7.0)
     - FirebaseInstallations (~> 7.0)
@@ -289,6 +294,12 @@ PODS:
     - FirebaseCore (~> 7.0)
     - "gRPC-C++ (~> 1.28.0)"
     - leveldb-library (~> 1.22)
+    - nanopb (~> 2.30906.0)
+  - FirebaseInAppMessaging (7.1.0-beta):
+    - FirebaseABTesting (~> 7.0)
+    - FirebaseCore (~> 7.0)
+    - FirebaseInstallations (~> 7.0)
+    - GoogleUtilities/Environment (~> 7.0)
     - nanopb (~> 2.30906.0)
   - FirebaseInstallations (7.1.0):
     - FirebaseCore (~> 7.0)
@@ -411,6 +422,7 @@ DEPENDENCIES:
   - FBSDKLoginKit
   - Firebase/Analytics
   - Firebase/Auth
+  - Firebase/InAppMessaging
   - FirebaseUI
   - FirebaseUI/Auth
   - FirebaseUI/Facebook
@@ -427,12 +439,14 @@ SPEC REPOS:
     - FBSDKCoreKit
     - FBSDKLoginKit
     - Firebase
+    - FirebaseABTesting
     - FirebaseAnalytics
     - FirebaseAuth
     - FirebaseCore
     - FirebaseCoreDiagnostics
     - FirebaseDatabase
     - FirebaseFirestore
+    - FirebaseInAppMessaging
     - FirebaseInstallations
     - FirebaseStorage
     - FirebaseUI
@@ -456,12 +470,14 @@ SPEC CHECKSUMS:
   FBSDKCoreKit: b46507dc8b8cefed31d644e74d7cc30e2a715ef8
   FBSDKLoginKit: 1a61d79e2b25e2fc0d03dccab1e34b38bbdf2546
   Firebase: 78e8dd2e39d653de6270432ad84fe8b59f7bf4e8
+  FirebaseABTesting: 55ed7b94464eee98180d91131f3c85e554ae243d
   FirebaseAnalytics: 7f165a56dea86ddd5b8ce02af3bee982c683405c
   FirebaseAuth: f82c2cfcc1c107bb0a97735cdbce4eb2a601f710
   FirebaseCore: 20046127eef0fcb8fa25df7fc12f7b97d4e48611
   FirebaseCoreDiagnostics: 872cdb9b749b23346dddd5c1014d1babd2257de3
   FirebaseDatabase: bf02ea57590aaab4e72b9b12b412a4c881ee81e2
   FirebaseFirestore: bbf303f0638a93e6ecb38433aad283cebdfece5f
+  FirebaseInAppMessaging: c8f71e3b7e224111b64245824d01c884bf6fde2d
   FirebaseInstallations: 3de38553e86171b5f81d83cdeef63473d37bfdb0
   FirebaseStorage: 80e2cd5200791540ca544f4dcac5e6b56994fc97
   FirebaseUI: f0677a1cc235f6da602cbd5c9b5fbbd24544a6b3
@@ -478,6 +494,6 @@ SPEC CHECKSUMS:
   PromisesObjC: 8c196f5a328c2cba3e74624585467a557dcb482f
   SDWebImage: 9169792e9eec3e45bba2a0c02f74bf8bd922d1ee
 
-PODFILE CHECKSUM: e9afd538c7fcb04d183b890bdba9f538ca914e68
+PODFILE CHECKSUM: b4ee02730bf37774742e544b05c0ee3bac66b0ee
 
 COCOAPODS: 1.10.0

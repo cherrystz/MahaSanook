@@ -1,0 +1,972 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1323C3CE50A93B3C90093C3C /* Pods_MahaSanook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E79985F86D3FC747DEE0D280 /* Pods_MahaSanook.framework */; };
+		3F9684A8BF0F9D70506614DA /* Pods_MahaSanook_MahaSanookUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16F622372A5DB4BB0CB8F101 /* Pods_MahaSanook_MahaSanookUITests.framework */; };
+		4711530C257B8E8700FE2459 /* FriendTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4711530B257B8E8700FE2459 /* FriendTableViewCell.swift */; };
+		472ED5D9257A4FAD00848EF3 /* people.png in Resources */ = {isa = PBXBuildFile; fileRef = 472ED5D8257A4FAD00848EF3 /* people.png */; };
+		472ED66B257A6F7500848EF3 /* ChessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 472ED66A257A6F7500848EF3 /* ChessViewController.swift */; };
+		472ED69C257A726E00848EF3 /* BoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 472ED698257A726800848EF3 /* BoardView.swift */; };
+		472ED69D257A726E00848EF3 /* PromotionSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 472ED699257A726A00848EF3 /* PromotionSelectionViewController.swift */; };
+		472ED69E257A726E00848EF3 /* PieceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 472ED69A257A726C00848EF3 /* PieceView.swift */; };
+		472ED69F257A726E00848EF3 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 472ED69B257A726E00848EF3 /* GameViewController.swift */; };
+		472ED6AC257A77ED00848EF3 /* chess-bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 472ED6AB257A77ED00848EF3 /* chess-bg.png */; };
+		472ED6B4257A787600848EF3 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 472ED6B3257A787600848EF3 /* HomeViewController.swift */; };
+		472ED6B9257A7C3C00848EF3 /* chess-game-bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 472ED6B8257A7C3C00848EF3 /* chess-game-bg.png */; };
+		472ED6BE257A7F0500848EF3 /* background_wood.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 472ED6BD257A7F0500848EF3 /* background_wood.jpg */; };
+		475ADA0E2578D03A00FFC155 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475ADA0D2578D03A00FFC155 /* AppDelegate.swift */; };
+		475ADA102578D03A00FFC155 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475ADA0F2578D03A00FFC155 /* SceneDelegate.swift */; };
+		475ADA172578D03B00FFC155 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 475ADA162578D03B00FFC155 /* Assets.xcassets */; };
+		475ADA1A2578D03B00FFC155 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 475ADA182578D03B00FFC155 /* LaunchScreen.storyboard */; };
+		475ADA252578D03B00FFC155 /* MahaSanookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475ADA242578D03B00FFC155 /* MahaSanookTests.swift */; };
+		475ADA302578D03B00FFC155 /* MahaSanookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475ADA2F2578D03B00FFC155 /* MahaSanookUITests.swift */; };
+		475ADA412578D0DA00FFC155 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 475ADA402578D0DA00FFC155 /* GoogleService-Info.plist */; };
+		475ADAA82578DA3000FFC155 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475ADAA72578DA3000FFC155 /* SignInViewController.swift */; };
+		475ADAB22578E3DD00FFC155 /* extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475ADAB12578E3DD00FFC155 /* extensions.swift */; };
+		475ADAB72578E79600FFC155 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475ADAB62578E79600FFC155 /* SignUpViewController.swift */; };
+		475ADB6925793D1E00FFC155 /* dot-fun-logo-dark.png in Resources */ = {isa = PBXBuildFile; fileRef = 475ADB6725793D1E00FFC155 /* dot-fun-logo-dark.png */; };
+		475ADB7525793D5900FFC155 /* dot-fun-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 475ADB7425793D5900FFC155 /* dot-fun-logo.png */; };
+		475ADBA32579554300FFC155 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475ADBA22579554300FFC155 /* MainTabBarViewController.swift */; };
+		475ADBA82579557700FFC155 /* constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475ADBA72579557700FFC155 /* constant.swift */; };
+		475ADBAD2579596D00FFC155 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475ADBAC2579596D00FFC155 /* ProfileViewController.swift */; };
+		475ADBB2257975B100FFC155 /* UpdateProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 475ADBB1257975B100FFC155 /* UpdateProfileViewController.swift */; };
+		4779F0E8257B7E91001C06BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4779F0E7257B7E91001C06BD /* Main.storyboard */; };
+		4779F125257B80C6001C06BD /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4779F124257B80C6001C06BD /* ChatViewController.swift */; };
+		4779F12A257B8132001C06BD /* MessengerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4779F129257B8132001C06BD /* MessengerViewController.swift */; };
+		4796CA08257D1B6B00A14A2E /* GameHistoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4796CA07257D1B6B00A14A2E /* GameHistoryTableViewCell.swift */; };
+		4796CA57257D47FB00A14A2E /* mahasanook.png in Resources */ = {isa = PBXBuildFile; fileRef = 4796CA56257D47FB00A14A2E /* mahasanook.png */; };
+		479D3F3A257BB9B6006FCC59 /* AddFriendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479D3F39257BB9B6006FCC59 /* AddFriendViewController.swift */; };
+		479D3F3F257BD051006FCC59 /* SetupUsernameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479D3F3E257BD051006FCC59 /* SetupUsernameViewController.swift */; };
+		479D3F44257BF24D006FCC59 /* RequestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479D3F43257BF24D006FCC59 /* RequestViewController.swift */; };
+		479D3F49257BF2AC006FCC59 /* RequestTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479D3F48257BF2AC006FCC59 /* RequestTableViewCell.swift */; };
+		B4CAAA6C269BC5340DB941E0 /* Pods_MahaSanookTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E98DBF48BDF6AC77DA138A70 /* Pods_MahaSanookTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		475ADA212578D03B00FFC155 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 475ADA022578D03A00FFC155 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 475ADA092578D03A00FFC155;
+			remoteInfo = MahaSanook;
+		};
+		475ADA2C2578D03B00FFC155 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 475ADA022578D03A00FFC155 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 475ADA092578D03A00FFC155;
+			remoteInfo = MahaSanook;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		16F622372A5DB4BB0CB8F101 /* Pods_MahaSanook_MahaSanookUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MahaSanook_MahaSanookUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4711530B257B8E8700FE2459 /* FriendTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendTableViewCell.swift; sourceTree = "<group>"; };
+		472ED5D8257A4FAD00848EF3 /* people.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = people.png; sourceTree = "<group>"; };
+		472ED66A257A6F7500848EF3 /* ChessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChessViewController.swift; sourceTree = "<group>"; };
+		472ED698257A726800848EF3 /* BoardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoardView.swift; sourceTree = "<group>"; };
+		472ED699257A726A00848EF3 /* PromotionSelectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PromotionSelectionViewController.swift; sourceTree = "<group>"; };
+		472ED69A257A726C00848EF3 /* PieceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PieceView.swift; sourceTree = "<group>"; };
+		472ED69B257A726E00848EF3 /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		472ED6AB257A77ED00848EF3 /* chess-bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chess-bg.png"; sourceTree = "<group>"; };
+		472ED6B3257A787600848EF3 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		472ED6B8257A7C3C00848EF3 /* chess-game-bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chess-game-bg.png"; sourceTree = "<group>"; };
+		472ED6BD257A7F0500848EF3 /* background_wood.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background_wood.jpg; sourceTree = "<group>"; };
+		475ADA0A2578D03A00FFC155 /* MahaSanook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MahaSanook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		475ADA0D2578D03A00FFC155 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		475ADA0F2578D03A00FFC155 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		475ADA162578D03B00FFC155 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		475ADA192578D03B00FFC155 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		475ADA1B2578D03B00FFC155 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		475ADA202578D03B00FFC155 /* MahaSanookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MahaSanookTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		475ADA242578D03B00FFC155 /* MahaSanookTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MahaSanookTests.swift; sourceTree = "<group>"; };
+		475ADA262578D03B00FFC155 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		475ADA2B2578D03B00FFC155 /* MahaSanookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MahaSanookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		475ADA2F2578D03B00FFC155 /* MahaSanookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MahaSanookUITests.swift; sourceTree = "<group>"; };
+		475ADA312578D03B00FFC155 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		475ADA402578D0DA00FFC155 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		475ADAA72578DA3000FFC155 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		475ADAB12578E3DD00FFC155 /* extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extensions.swift; sourceTree = "<group>"; };
+		475ADAB62578E79600FFC155 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		475ADB6725793D1E00FFC155 /* dot-fun-logo-dark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dot-fun-logo-dark.png"; sourceTree = "<group>"; };
+		475ADB7425793D5900FFC155 /* dot-fun-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dot-fun-logo.png"; sourceTree = "<group>"; };
+		475ADBA22579554300FFC155 /* MainTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
+		475ADBA72579557700FFC155 /* constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = constant.swift; sourceTree = "<group>"; };
+		475ADBAC2579596D00FFC155 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		475ADBB1257975B100FFC155 /* UpdateProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateProfileViewController.swift; sourceTree = "<group>"; };
+		4779F0E7257B7E91001C06BD /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		4779F124257B80C6001C06BD /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		4779F129257B8132001C06BD /* MessengerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessengerViewController.swift; sourceTree = "<group>"; };
+		4796CA07257D1B6B00A14A2E /* GameHistoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameHistoryTableViewCell.swift; sourceTree = "<group>"; };
+		4796CA56257D47FB00A14A2E /* mahasanook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mahasanook.png; sourceTree = "<group>"; };
+		479D3F39257BB9B6006FCC59 /* AddFriendViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFriendViewController.swift; sourceTree = "<group>"; };
+		479D3F3E257BD051006FCC59 /* SetupUsernameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetupUsernameViewController.swift; sourceTree = "<group>"; };
+		479D3F43257BF24D006FCC59 /* RequestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestViewController.swift; sourceTree = "<group>"; };
+		479D3F48257BF2AC006FCC59 /* RequestTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestTableViewCell.swift; sourceTree = "<group>"; };
+		4B6C7C7D70B3E4FBE6D8392C /* Pods-MahaSanook-MahaSanookUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MahaSanook-MahaSanookUITests.release.xcconfig"; path = "Target Support Files/Pods-MahaSanook-MahaSanookUITests/Pods-MahaSanook-MahaSanookUITests.release.xcconfig"; sourceTree = "<group>"; };
+		96D89C537875AF638A18C8D7 /* Pods-MahaSanookTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MahaSanookTests.debug.xcconfig"; path = "Target Support Files/Pods-MahaSanookTests/Pods-MahaSanookTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A0E1245F1E2E2E93102F73BF /* Pods-MahaSanook-MahaSanookUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MahaSanook-MahaSanookUITests.debug.xcconfig"; path = "Target Support Files/Pods-MahaSanook-MahaSanookUITests/Pods-MahaSanook-MahaSanookUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CD937B253E395451DFE7C447 /* Pods-MahaSanook.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MahaSanook.debug.xcconfig"; path = "Target Support Files/Pods-MahaSanook/Pods-MahaSanook.debug.xcconfig"; sourceTree = "<group>"; };
+		E644F7B9A43692399E36D3A3 /* Pods-MahaSanookTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MahaSanookTests.release.xcconfig"; path = "Target Support Files/Pods-MahaSanookTests/Pods-MahaSanookTests.release.xcconfig"; sourceTree = "<group>"; };
+		E79985F86D3FC747DEE0D280 /* Pods_MahaSanook.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MahaSanook.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E98DBF48BDF6AC77DA138A70 /* Pods_MahaSanookTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MahaSanookTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F81964AE0313E25B5EE1E219 /* Pods-MahaSanook.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MahaSanook.release.xcconfig"; path = "Target Support Files/Pods-MahaSanook/Pods-MahaSanook.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		475ADA072578D03A00FFC155 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1323C3CE50A93B3C90093C3C /* Pods_MahaSanook.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		475ADA1D2578D03B00FFC155 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4CAAA6C269BC5340DB941E0 /* Pods_MahaSanookTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		475ADA282578D03B00FFC155 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F9684A8BF0F9D70506614DA /* Pods_MahaSanook_MahaSanookUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18C49A0FA63EBB953637FFF2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CD937B253E395451DFE7C447 /* Pods-MahaSanook.debug.xcconfig */,
+				F81964AE0313E25B5EE1E219 /* Pods-MahaSanook.release.xcconfig */,
+				A0E1245F1E2E2E93102F73BF /* Pods-MahaSanook-MahaSanookUITests.debug.xcconfig */,
+				4B6C7C7D70B3E4FBE6D8392C /* Pods-MahaSanook-MahaSanookUITests.release.xcconfig */,
+				96D89C537875AF638A18C8D7 /* Pods-MahaSanookTests.debug.xcconfig */,
+				E644F7B9A43692399E36D3A3 /* Pods-MahaSanookTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		47115310257B8EFD00FE2459 /* Chats */ = {
+			isa = PBXGroup;
+			children = (
+				4779F129257B8132001C06BD /* MessengerViewController.swift */,
+				4711530B257B8E8700FE2459 /* FriendTableViewCell.swift */,
+				479D3F43257BF24D006FCC59 /* RequestViewController.swift */,
+				479D3F48257BF2AC006FCC59 /* RequestTableViewCell.swift */,
+				4779F124257B80C6001C06BD /* ChatViewController.swift */,
+				479D3F39257BB9B6006FCC59 /* AddFriendViewController.swift */,
+			);
+			path = Chats;
+			sourceTree = "<group>";
+		};
+		47115311257B8F3B00FE2459 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				472ED6B3257A787600848EF3 /* HomeViewController.swift */,
+				4796CA07257D1B6B00A14A2E /* GameHistoryTableViewCell.swift */,
+				472ED66A257A6F7500848EF3 /* ChessViewController.swift */,
+				472ED67B257A724C00848EF3 /* SwiftChess */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		47115312257B8F4E00FE2459 /* UserManager */ = {
+			isa = PBXGroup;
+			children = (
+				475ADAA72578DA3000FFC155 /* SignInViewController.swift */,
+				475ADAB62578E79600FFC155 /* SignUpViewController.swift */,
+			);
+			path = UserManager;
+			sourceTree = "<group>";
+		};
+		47115316257B8F8100FE2459 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				475ADBA22579554300FFC155 /* MainTabBarViewController.swift */,
+				47115310257B8EFD00FE2459 /* Chats */,
+				47115311257B8F3B00FE2459 /* Home */,
+				475ADAED2579091400FFC155 /* Profile */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		472ED67B257A724C00848EF3 /* SwiftChess */ = {
+			isa = PBXGroup;
+			children = (
+				472ED698257A726800848EF3 /* BoardView.swift */,
+				472ED69B257A726E00848EF3 /* GameViewController.swift */,
+				472ED69A257A726C00848EF3 /* PieceView.swift */,
+				472ED699257A726A00848EF3 /* PromotionSelectionViewController.swift */,
+			);
+			path = SwiftChess;
+			sourceTree = "<group>";
+		};
+		475ADA012578D03A00FFC155 = {
+			isa = PBXGroup;
+			children = (
+				475ADA0C2578D03A00FFC155 /* MahaSanook */,
+				475ADA232578D03B00FFC155 /* MahaSanookTests */,
+				475ADA2E2578D03B00FFC155 /* MahaSanookUITests */,
+				475ADA0B2578D03A00FFC155 /* Products */,
+				18C49A0FA63EBB953637FFF2 /* Pods */,
+				4CA85103277C9757EA83A465 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		475ADA0B2578D03A00FFC155 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				475ADA0A2578D03A00FFC155 /* MahaSanook.app */,
+				475ADA202578D03B00FFC155 /* MahaSanookTests.xctest */,
+				475ADA2B2578D03B00FFC155 /* MahaSanookUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		475ADA0C2578D03A00FFC155 /* MahaSanook */ = {
+			isa = PBXGroup;
+			children = (
+				475ADAF12579092400FFC155 /* Extensions */,
+				475ADB6025793C0D00FFC155 /* Images */,
+				475ADC50257A13B600FFC155 /* Resources */,
+				475ADC4F257A13A800FFC155 /* Storyboard */,
+				47115316257B8F8100FE2459 /* Main */,
+				47115312257B8F4E00FE2459 /* UserManager */,
+				475ADA1B2578D03B00FFC155 /* Info.plist */,
+				475ADA402578D0DA00FFC155 /* GoogleService-Info.plist */,
+				475ADA162578D03B00FFC155 /* Assets.xcassets */,
+			);
+			path = MahaSanook;
+			sourceTree = "<group>";
+		};
+		475ADA232578D03B00FFC155 /* MahaSanookTests */ = {
+			isa = PBXGroup;
+			children = (
+				475ADA242578D03B00FFC155 /* MahaSanookTests.swift */,
+				475ADA262578D03B00FFC155 /* Info.plist */,
+			);
+			path = MahaSanookTests;
+			sourceTree = "<group>";
+		};
+		475ADA2E2578D03B00FFC155 /* MahaSanookUITests */ = {
+			isa = PBXGroup;
+			children = (
+				475ADA2F2578D03B00FFC155 /* MahaSanookUITests.swift */,
+				475ADA312578D03B00FFC155 /* Info.plist */,
+			);
+			path = MahaSanookUITests;
+			sourceTree = "<group>";
+		};
+		475ADAED2579091400FFC155 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				475ADBAC2579596D00FFC155 /* ProfileViewController.swift */,
+				479D3F3E257BD051006FCC59 /* SetupUsernameViewController.swift */,
+				475ADBB1257975B100FFC155 /* UpdateProfileViewController.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		475ADAF12579092400FFC155 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				475ADAB12578E3DD00FFC155 /* extensions.swift */,
+				475ADBA72579557700FFC155 /* constant.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		475ADB6025793C0D00FFC155 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				472ED6B8257A7C3C00848EF3 /* chess-game-bg.png */,
+				4796CA56257D47FB00A14A2E /* mahasanook.png */,
+				472ED6BD257A7F0500848EF3 /* background_wood.jpg */,
+				472ED6AB257A77ED00848EF3 /* chess-bg.png */,
+				472ED5D8257A4FAD00848EF3 /* people.png */,
+				475ADB6725793D1E00FFC155 /* dot-fun-logo-dark.png */,
+				475ADB7425793D5900FFC155 /* dot-fun-logo.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		475ADC4F257A13A800FFC155 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				4779F0E7257B7E91001C06BD /* Main.storyboard */,
+				475ADA182578D03B00FFC155 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		475ADC50257A13B600FFC155 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				475ADA0D2578D03A00FFC155 /* AppDelegate.swift */,
+				475ADA0F2578D03A00FFC155 /* SceneDelegate.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		4CA85103277C9757EA83A465 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E79985F86D3FC747DEE0D280 /* Pods_MahaSanook.framework */,
+				16F622372A5DB4BB0CB8F101 /* Pods_MahaSanook_MahaSanookUITests.framework */,
+				E98DBF48BDF6AC77DA138A70 /* Pods_MahaSanookTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		475ADA092578D03A00FFC155 /* MahaSanook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 475ADA342578D03B00FFC155 /* Build configuration list for PBXNativeTarget "MahaSanook" */;
+			buildPhases = (
+				7E1D6020B9390F4251A32805 /* [CP] Check Pods Manifest.lock */,
+				475ADA062578D03A00FFC155 /* Sources */,
+				475ADA072578D03A00FFC155 /* Frameworks */,
+				475ADA082578D03A00FFC155 /* Resources */,
+				C0F30AB9DCB6376F368DB6D2 /* [CP] Embed Pods Frameworks */,
+				E732939198AE3DADAEB02E92 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MahaSanook;
+			productName = MahaSanook;
+			productReference = 475ADA0A2578D03A00FFC155 /* MahaSanook.app */;
+			productType = "com.apple.product-type.application";
+		};
+		475ADA1F2578D03B00FFC155 /* MahaSanookTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 475ADA372578D03B00FFC155 /* Build configuration list for PBXNativeTarget "MahaSanookTests" */;
+			buildPhases = (
+				FCC26A4974DE5ADEC51236D7 /* [CP] Check Pods Manifest.lock */,
+				475ADA1C2578D03B00FFC155 /* Sources */,
+				475ADA1D2578D03B00FFC155 /* Frameworks */,
+				475ADA1E2578D03B00FFC155 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				475ADA222578D03B00FFC155 /* PBXTargetDependency */,
+			);
+			name = MahaSanookTests;
+			productName = MahaSanookTests;
+			productReference = 475ADA202578D03B00FFC155 /* MahaSanookTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		475ADA2A2578D03B00FFC155 /* MahaSanookUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 475ADA3A2578D03B00FFC155 /* Build configuration list for PBXNativeTarget "MahaSanookUITests" */;
+			buildPhases = (
+				DDF39EE1F64E17C42B336F1B /* [CP] Check Pods Manifest.lock */,
+				475ADA272578D03B00FFC155 /* Sources */,
+				475ADA282578D03B00FFC155 /* Frameworks */,
+				475ADA292578D03B00FFC155 /* Resources */,
+				CA2A3ADE68523157EDB59951 /* [CP] Embed Pods Frameworks */,
+				2CCD4C395483948C41F3643E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				475ADA2D2578D03B00FFC155 /* PBXTargetDependency */,
+			);
+			name = MahaSanookUITests;
+			productName = MahaSanookUITests;
+			productReference = 475ADA2B2578D03B00FFC155 /* MahaSanookUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		475ADA022578D03A00FFC155 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					475ADA092578D03A00FFC155 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					475ADA1F2578D03B00FFC155 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 475ADA092578D03A00FFC155;
+					};
+					475ADA2A2578D03B00FFC155 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 475ADA092578D03A00FFC155;
+					};
+				};
+			};
+			buildConfigurationList = 475ADA052578D03A00FFC155 /* Build configuration list for PBXProject "MahaSanook" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 475ADA012578D03A00FFC155;
+			productRefGroup = 475ADA0B2578D03A00FFC155 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				475ADA092578D03A00FFC155 /* MahaSanook */,
+				475ADA1F2578D03B00FFC155 /* MahaSanookTests */,
+				475ADA2A2578D03B00FFC155 /* MahaSanookUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		475ADA082578D03A00FFC155 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4779F0E8257B7E91001C06BD /* Main.storyboard in Resources */,
+				472ED5D9257A4FAD00848EF3 /* people.png in Resources */,
+				475ADB7525793D5900FFC155 /* dot-fun-logo.png in Resources */,
+				4796CA57257D47FB00A14A2E /* mahasanook.png in Resources */,
+				475ADA1A2578D03B00FFC155 /* LaunchScreen.storyboard in Resources */,
+				475ADA412578D0DA00FFC155 /* GoogleService-Info.plist in Resources */,
+				472ED6BE257A7F0500848EF3 /* background_wood.jpg in Resources */,
+				472ED6AC257A77ED00848EF3 /* chess-bg.png in Resources */,
+				475ADB6925793D1E00FFC155 /* dot-fun-logo-dark.png in Resources */,
+				475ADA172578D03B00FFC155 /* Assets.xcassets in Resources */,
+				472ED6B9257A7C3C00848EF3 /* chess-game-bg.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		475ADA1E2578D03B00FFC155 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		475ADA292578D03B00FFC155 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2CCD4C395483948C41F3643E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MahaSanook-MahaSanookUITests/Pods-MahaSanook-MahaSanookUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MahaSanook-MahaSanookUITests/Pods-MahaSanook-MahaSanookUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MahaSanook-MahaSanookUITests/Pods-MahaSanook-MahaSanookUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7E1D6020B9390F4251A32805 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MahaSanook-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C0F30AB9DCB6376F368DB6D2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MahaSanook/Pods-MahaSanook-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MahaSanook/Pods-MahaSanook-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MahaSanook/Pods-MahaSanook-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA2A3ADE68523157EDB59951 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MahaSanook-MahaSanookUITests/Pods-MahaSanook-MahaSanookUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MahaSanook-MahaSanookUITests/Pods-MahaSanook-MahaSanookUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MahaSanook-MahaSanookUITests/Pods-MahaSanook-MahaSanookUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DDF39EE1F64E17C42B336F1B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MahaSanook-MahaSanookUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E732939198AE3DADAEB02E92 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MahaSanook/Pods-MahaSanook-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MahaSanook/Pods-MahaSanook-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MahaSanook/Pods-MahaSanook-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FCC26A4974DE5ADEC51236D7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MahaSanookTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		475ADA062578D03A00FFC155 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				479D3F3F257BD051006FCC59 /* SetupUsernameViewController.swift in Sources */,
+				472ED69F257A726E00848EF3 /* GameViewController.swift in Sources */,
+				479D3F44257BF24D006FCC59 /* RequestViewController.swift in Sources */,
+				4796CA08257D1B6B00A14A2E /* GameHistoryTableViewCell.swift in Sources */,
+				472ED69C257A726E00848EF3 /* BoardView.swift in Sources */,
+				4779F125257B80C6001C06BD /* ChatViewController.swift in Sources */,
+				479D3F49257BF2AC006FCC59 /* RequestTableViewCell.swift in Sources */,
+				475ADAA82578DA3000FFC155 /* SignInViewController.swift in Sources */,
+				475ADAB72578E79600FFC155 /* SignUpViewController.swift in Sources */,
+				475ADBA82579557700FFC155 /* constant.swift in Sources */,
+				4779F12A257B8132001C06BD /* MessengerViewController.swift in Sources */,
+				472ED6B4257A787600848EF3 /* HomeViewController.swift in Sources */,
+				479D3F3A257BB9B6006FCC59 /* AddFriendViewController.swift in Sources */,
+				475ADBB2257975B100FFC155 /* UpdateProfileViewController.swift in Sources */,
+				4711530C257B8E8700FE2459 /* FriendTableViewCell.swift in Sources */,
+				475ADA0E2578D03A00FFC155 /* AppDelegate.swift in Sources */,
+				475ADBA32579554300FFC155 /* MainTabBarViewController.swift in Sources */,
+				475ADA102578D03A00FFC155 /* SceneDelegate.swift in Sources */,
+				475ADBAD2579596D00FFC155 /* ProfileViewController.swift in Sources */,
+				472ED69D257A726E00848EF3 /* PromotionSelectionViewController.swift in Sources */,
+				475ADAB22578E3DD00FFC155 /* extensions.swift in Sources */,
+				472ED69E257A726E00848EF3 /* PieceView.swift in Sources */,
+				472ED66B257A6F7500848EF3 /* ChessViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		475ADA1C2578D03B00FFC155 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				475ADA252578D03B00FFC155 /* MahaSanookTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		475ADA272578D03B00FFC155 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				475ADA302578D03B00FFC155 /* MahaSanookUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		475ADA222578D03B00FFC155 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 475ADA092578D03A00FFC155 /* MahaSanook */;
+			targetProxy = 475ADA212578D03B00FFC155 /* PBXContainerItemProxy */;
+		};
+		475ADA2D2578D03B00FFC155 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 475ADA092578D03A00FFC155 /* MahaSanook */;
+			targetProxy = 475ADA2C2578D03B00FFC155 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		475ADA182578D03B00FFC155 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				475ADA192578D03B00FFC155 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		475ADA322578D03B00FFC155 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		475ADA332578D03B00FFC155 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		475ADA352578D03B00FFC155 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD937B253E395451DFE7C447 /* Pods-MahaSanook.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2FF3U2S4L7;
+				INFOPLIST_FILE = MahaSanook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Pharuthapol-Junpet.MahaSanook";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		475ADA362578D03B00FFC155 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F81964AE0313E25B5EE1E219 /* Pods-MahaSanook.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2FF3U2S4L7;
+				INFOPLIST_FILE = MahaSanook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Pharuthapol-Junpet.MahaSanook";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		475ADA382578D03B00FFC155 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96D89C537875AF638A18C8D7 /* Pods-MahaSanookTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2FF3U2S4L7;
+				INFOPLIST_FILE = MahaSanookTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Pharuthapol-Junpet.MahaSanookTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MahaSanook.app/MahaSanook";
+			};
+			name = Debug;
+		};
+		475ADA392578D03B00FFC155 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E644F7B9A43692399E36D3A3 /* Pods-MahaSanookTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2FF3U2S4L7;
+				INFOPLIST_FILE = MahaSanookTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Pharuthapol-Junpet.MahaSanookTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MahaSanook.app/MahaSanook";
+			};
+			name = Release;
+		};
+		475ADA3B2578D03B00FFC155 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0E1245F1E2E2E93102F73BF /* Pods-MahaSanook-MahaSanookUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2FF3U2S4L7;
+				INFOPLIST_FILE = MahaSanookUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Pharuthapol-Junpet.MahaSanookUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MahaSanook;
+			};
+			name = Debug;
+		};
+		475ADA3C2578D03B00FFC155 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B6C7C7D70B3E4FBE6D8392C /* Pods-MahaSanook-MahaSanookUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2FF3U2S4L7;
+				INFOPLIST_FILE = MahaSanookUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Pharuthapol-Junpet.MahaSanookUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MahaSanook;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		475ADA052578D03A00FFC155 /* Build configuration list for PBXProject "MahaSanook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				475ADA322578D03B00FFC155 /* Debug */,
+				475ADA332578D03B00FFC155 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		475ADA342578D03B00FFC155 /* Build configuration list for PBXNativeTarget "MahaSanook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				475ADA352578D03B00FFC155 /* Debug */,
+				475ADA362578D03B00FFC155 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		475ADA372578D03B00FFC155 /* Build configuration list for PBXNativeTarget "MahaSanookTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				475ADA382578D03B00FFC155 /* Debug */,
+				475ADA392578D03B00FFC155 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		475ADA3A2578D03B00FFC155 /* Build configuration list for PBXNativeTarget "MahaSanookUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				475ADA3B2578D03B00FFC155 /* Debug */,
+				475ADA3C2578D03B00FFC155 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 475ADA022578D03A00FFC155 /* Project object */;
+}

@@ -1,6 +1,6 @@
 # MahaSanook
 
-MahaSanook is the iOS project from my class (Object-Oriented Programming). This app is can play chess games, chat apps (JSQMessages), and the Member system. By inspiration, passion, and practice the iOS Skills.
+MahaSanook is the iOS project from my class (Object-Oriented Programming). This app is can play chess games, chat apps (JSQMessages), and the Member system. By inspiration, passion, and practice the iOS Skills. So it created by UIKit Framework.
 
 ## Third-Party Libraries
 
